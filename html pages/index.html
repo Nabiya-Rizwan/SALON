@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Cuts - Men's Salon</title>
+    <link rel="stylesheet" href="../style pages/style.css">
+    <link rel="stylesheet" href="../style pages/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Pacifico&family=Heebo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="container nav-wrapper">
+        <a href="#" class="logo">
+            <img src="../IMAGES/ICON.png" alt="Royal Cuts Logo">
+            Royal <span>Cuts</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="primary-btn">Book Appointment</a></li>
+            </ul>
+        </nav>
+
+        <button class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Mobile Nav -->
+<ul class="mobile-nav" id="mobileNav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="primary-btn">Book Appointment</a></li>
+</ul>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <h5 class="section-title">Premium Grooming</h5>
+            <h2>Modern Men's Haircuts & Beard Styling</h2>
+            <p>Experience the finest men's salon services with expert barbers and modern styling techniques. From classic cuts to luxury beard grooming — we create your signature look.</p>
+            <a href="#" class="primary-btn">Book Appointment</a>
+        </div>
+
+        <div class="hero-image">
+       
+            <img src="../IMAGES/HOMEPAGE-IMG1.png" alt="Salon Image">
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="services-section">
+    <div class="section-header">
+        <p class="section-title">Our Services</p>
+        <h2 class="section-heading">Most Popular Services</h2>
+    </div>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <div class="tab active">
+            <span class="tab-icon">✂️</span>
+            <div>
+                <small>Popular</small>
+                <h4>Haircuts</h4>
+            </div>
+        </div>
+        <div class="tab">
+            <span class="tab-icon">🪒</span>
+            <div>
+                <small>Special</small>
+                <h4>Beard</h4>
+            </div>
+        </div>
+        <div class="tab">
+            <span class="tab-icon">💈</span>
+            <div>
+                <small>Lovely</small>
+                <h4>Styling</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="padding-bottom: 30px;">
+        <div class="services">
+
+            <!-- Left Column -->
+            <div class="column">
+                <div class="service-item animate-left">
+                    <img src="../IMAGES/haircutting.jpg" alt="Classic Haircut">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Classic Haircut</h3>
+                            <span class="price">$25</span>
+                        </div>
+                        <p>Professional precision haircut with clean finish.</p>
+                    </div>
+                </div>
+
+                <div class="service-item animate-left" style="transition-delay: 0.15s;">
+                    <img src="../IMAGES/facial.jpg" alt="Skin Fade">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Skin Fade</h3>
+                            <span class="price">$30</span>
+                        </div>
+                        <p>Modern fade with sharp, clean finishing.</p>
+                    </div>
+                </div>
+
+                <div class="service-item animate-left" style="transition-delay: 0.3s;">
+                    <img src="../IMAGES/buzz cut.jpg" alt="Buzz Cut">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Buzz Cut</h3>
+                            <span class="price">$20</span>
+                        </div>
+                        <p>Quick and clean buzz cut style.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="column">
+                <div class="service-item animate-right">
+                    <img src="../IMAGES/beards.jpg" alt="Beard Trim">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Beard Trim</h3>
+                            <span class="price">$20</span>
+                        </div>
+                        <p>Professional beard shaping and grooming.</p>
+                    </div>
+                </div>
+
+                <div class="service-item animate-right" style="transition-delay: 0.15s;">
+                    <img src="../IMAGES/HAIRCOLORING.jpg" alt="Hair Coloring">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Hair Coloring</h3>
+                            <span class="price">$60</span>
+                        </div>
+                        <p>Premium quality hair coloring service.</p>
+                    </div>
+                </div>
+
+                <div class="service-item animate-right" style="transition-delay: 0.3s;">
+                    <img src="../IMAGES/shampo.jpg" alt="Shampoo & Style">
+                    <div class="service-info">
+                        <div class="top">
+                            <h3>Shampoo & Style</h3>
+                            <span class="price">$35</span>
+                        </div>
+                        <p>Hair wash and professional styling.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features-section">
+    <div class="container">
+        <div class="features-row">
+            <div class="feature-box animate-left">
+                <i class="fa-solid fa-scissors"></i>
+                <h5>Expert Barbers</h5>
+                <p>Professional barbers delivering stylish haircuts and grooming services.</p>
+            </div>
+
+            <div class="feature-box animate-left" style="transition-delay: 0.15s;">
+                <i class="fa-solid fa-user"></i>
+                <h5>Premium Haircuts</h5>
+                <p>Trendy and modern hairstyles designed to match your personality.</p>
+            </div>
+
+            <div class="feature-box animate-right" style="transition-delay: 0.15s;">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h5>Online Booking</h5>
+                <p>Book your haircut or grooming session quickly and easily online.</p>
+            </div>
+
+            <div class="feature-box animate-right">
+                <i class="fa-solid fa-user-tie"></i>
+                <h5>Beard Grooming</h5>
+                <p>Professional beard trimming and styling for a clean sharp look.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TEAM SECTION -->
+<section class="team-section">
+    <div class="container">
+        <p class="section-title">Team Members</p>
+        <h2>Our Professional Stylists</h2>
+
+        <div class="team-row">
+            <div class="team-box animate-left">
+                <img src="../IMAGES/B1.jpg" alt="Alex">
+                <h5>Alex</h5>
+                <small>Hair Artist</small>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="team-box animate-left" style="transition-delay: 0.15s;">
+                <img src="../IMAGES/B2.jpg" alt="Jason">
+                <h5>Jason</h5>
+                <small>Style Specialist</small>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="team-box animate-right" style="transition-delay: 0.15s;">
+                <img src="../IMAGES/B3.jpg" alt="Ryan">
+                <h5>Ryan</h5>
+                <small>Grooming Expert</small>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="team-box animate-right">
+                <img src="../IMAGES/B4.jpg" alt="Daniel">
+                <h5>Daniel</h5>
+                <small>Fade Specialist</small>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function toggleMenu() {
+        const nav = document.getElementById('mobileNav');
+        nav.classList.toggle('open');
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.animate-left, .animate-right').forEach(el => {
+        observer.observe(el);
+    });
+</script>
+
+</body>
+</html>
